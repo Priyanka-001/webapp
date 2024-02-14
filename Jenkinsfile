@@ -26,7 +26,7 @@ pipeline {
         }
         stage('Deploy'){
             steps{
-                bat '/var/deployment/./deployment.sh'
+                bat 'make publish'
             }
         }
         
