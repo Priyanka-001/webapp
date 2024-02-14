@@ -26,7 +26,7 @@ pipeline {
         }
         stage('Deploy'){
             steps{
-                bat 'NMAKE /a'
+                bat 'C:\Users\priya\Jenkins_\workspace\Webapp-2\target\java-webapp-1.0.jar'
             }
         }
         
